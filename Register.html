@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Register Page</title>
+</head>
+<body>
+    <h1>REGISTER PAGE</h1>
+    <form>
+    <label for = "firstname">FIRST NAME:</label><br>
+    <input type = "text" id="firstname" name="firstname" placeholder="Enter First Name" required><br><br>
+    <label for="lastname">LAST NAME:</label><br>
+    <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name" required><br><br>
+    <label for="email">Email:</label><br>
+    <input type = "email" id="email" name="email" placeholder="Email" required ><br><br>
+    <label for="mobilenumber">MOBILE NUMBER:</label><br>
+    <input type="tel" id="mobilenumber" name="mobilenumber" placeholder="Mobile Number" required><br><br>
+    <label>CHOOSE GENDER:</label><br>
+    <input type="radio" id="female" name="gender" value="Female" required> 
+    <label for="female">Female</label>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br><br>
+    <label for = "dob">DATE OF BIRTH:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+    <label for = "password">PASSWORD:</label><br>
+    <input type = "password" id="password" name="password" placeholder="Enter Password" required><br><br>
+    <label for ="confirmpassword" >CONFIRM PASSWORD:</label><br>
+    <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password" required><br><br>
+    <button type = "submit">Register</button> 
+    </form>
+    <p>Already Have An Account? <a href="login.html">Login Here</a></p>
+</body>
+</html>
